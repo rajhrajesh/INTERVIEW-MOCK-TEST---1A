@@ -1,0 +1,75 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5d0fe;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 7px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 550px;
+  color: #000000;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  /* flex-direction: row;
+  padding: 20px;  */
+}
+
+.input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #cbd2d9;
+  margin-right: 20px;
+  outline: none;
+  color: #323f4b;
+}
+
+.Edit {
+  background-color: #d946ef;
+  color: #ffffff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid gray;
+  outline: none;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 4px;
+}
+
+.Save {
+  background-color: #d946ef;
+  color: #ffffff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid gray;
+  outline: none;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 4px;
+}
+
+.p-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description {
+  margin-right: 50px;
+}
